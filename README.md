@@ -1,1 +1,1 @@
-This is the first project in my github
+This is the Roll dice project
