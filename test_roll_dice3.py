@@ -2,7 +2,7 @@
 import unittest
 from unittest.mock import patch
 import random
-from roll_dice3 import roll_dice
+from roll_dice import roll_dice
 
 class TestDiceRoll(unittest.TestCase):
 
