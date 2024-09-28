@@ -46,5 +46,8 @@ def roll_dice():
     logger.info("Exceeded maximum attempts.")
     return []
 
+print('hello')
+
 if __name__ == '__main__':
     roll_dice()
+
