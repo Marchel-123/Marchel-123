@@ -23,8 +23,6 @@ def roll_dice():
         dice_result.append([dice1, dice2])
 
         #If both dice number result other than 1 or 6, it will return the return immediately
-        # If either dice number result is not 1 or 6, return immediately
-        # If both dice number result are neither 1 nor 6, return immediately
         if (dice1 not in (1, 6)) and (dice2 not in (1, 6)):
             logger.info(f"Rolled neither 1 nor 6: {(dice1, dice2)}")
             return [(dice1, dice2)]
