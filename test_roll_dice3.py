@@ -42,25 +42,3 @@ class TestDiceRoll(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()
 
-"""
-import unittest
-from roll_dice3 import roll_dice
-
-class TestRollDice(unittest.TestCase):
-    def test_roll_dice(self):
-        result = roll_dice()
-        
-        # Check if result is a list
-        self.assertIsInstance(result, list)
-        
-        # Check if result is either empty or has dice values
-        if result:
-            dice1, dice2 = result[0]
-            self.assertIn(dice1, range(1, 7))
-            self.assertIn(dice2, range(1, 7))
-        else:
-            self.assertEqual(result, [])
-
-if __name__ == '__main__':
-    unittest.main()
-"""
